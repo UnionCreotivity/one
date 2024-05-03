@@ -114,7 +114,7 @@ window.onload = function () {
                 xPercent: (pos) => gsap.utils.random(-2500, 2500),
                 yPercent: (pos) => gsap.utils.random(-2500, 2500),
                 onStart: () => {
-                    setTimeout(c1ScrollAni, 1250); // 在動畫開始後1秒調用c1ScrollAni函數
+                    setTimeout(c1ScrollAni, 1200); // 在動畫開始後1秒調用c1ScrollAni函數
                 }
             }, '<')
 
@@ -136,18 +136,16 @@ window.onload = function () {
         lineTl
             .to('.c1-circle', {
                 opacity: 1,
-
             })
             .from('.c1-circle', {
                 duration: 0.6,
                 scale: 0,
                 ease: "power2.inOut",
             }, '<')
-            .to(".js-line_mask_2_1", { strokeDashoffset: 0, duration: 0.7, })
+
+            .to(".js-line_mask_2_1", { strokeDashoffset: 0, duration: 0.7, }, '<0.3')
             .to(".js-line_mask_2_2", { strokeDashoffset: 0, duration: 0.7, }, '<0.4')
-
             .to(".js-line_mask_2_1", { strokeDashoffset: -1920, duration: 0.7, delay: 2 })
-
             .to(".js-line_mask_2_2", { strokeDashoffset: -1920, duration: 0.7, }, '<0.4')
             .to('.c1-circle', {
                 opacity: 0,
