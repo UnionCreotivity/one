@@ -10,14 +10,12 @@
 
 body {
   background-size: cover;
-  background-image: url(../images/bottom_bg.png);
+  background-image: url(../images/all_bg.png);
 }
 
 .card1-card2 {
   position: relative;
   width: 100%;
-  background-size: cover;
-  background-image: url(../images/c1c2bg.png);
 }
 .card1-card2 .card1 {
   width: 100%;
@@ -31,15 +29,10 @@ body {
 }
 .card1-card2 .card1 .line-one-box .absolute1 {
   position: absolute;
-  top: -10%;
+  top: -14%;
   left: 0px;
   width: 100%;
   z-index: 10;
-}
-@media all and (max-width: 1440px) {
-  .card1-card2 .card1 .line-one-box .absolute1 {
-    top: 0%;
-  }
 }
 .card1-card2 .card1 .line-one-box .absolute1 .relative {
   position: relative;
@@ -54,13 +47,8 @@ body {
 .card1-card2 .card1 .line-one-box .absolute2 {
   position: absolute;
   width: 100%;
-  top: -10%;
+  top: -14%;
   left: 0px;
-}
-@media all and (max-width: 1440px) {
-  .card1-card2 .card1 .line-one-box .absolute2 {
-    top: 0%;
-  }
 }
 .card1-card2 .card1 .line-one-box .absolute2 .relative {
   position: relative;
@@ -79,14 +67,115 @@ body {
   width: 7%;
   z-index: 15;
 }
-.card1-card2 .card1 .line-one-box .c1-logo {
-  width: 39%;
+.card1-card2 .card1 .line-one-box .c1-logo-box {
   position: absolute;
-  top: 50%;
-  left: 51%;
+  top: 55%;
+  display: flex;
+  left: 50.5%;
   transform: translate(-50%, -50%);
-  filter: drop-shadow(5px 8px 5px rgba(43, 43, 43, 0.4));
+  filter: drop-shadow(5px 8px 5px rgba(43, 43, 43, 0.6));
   z-index: 15;
+}
+.card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo {
+  display: flex;
+  position: relative;
+}
+.card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .feng-yi {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1.5vw;
+  width: 4.7vw;
+}
+.card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .feng-yi .feng {
+  margin-bottom: 0.5vw;
+}
+.card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .one {
+  display: flex;
+}
+.card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .one .o {
+  margin-right: 1vw;
+  height: 9.5vw;
+}
+.card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .one .white1 {
+  margin-right: 0.3vw;
+  height: 9.5vw;
+}
+.card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .one .gold1 {
+  height: 9.5vw;
+}
+.card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .one .e {
+  margin-right: 1vw;
+  height: 9.5vw;
+}
+.card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .logo-box {
+  position: relative;
+  background: linear-gradient(to right, #d2a770 0%, #f2ca8c 49%, #d2a770 100%);
+  -webkit-mask-image: url(../images/gold1.svg);
+  mask-image: url(../images/gold1.svg);
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  width: 4.8vw;
+  overflow: hidden;
+}
+.card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .logo-box .light {
+  position: relative;
+  z-index: 1;
+  width: 70%;
+  height: 128%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 100%);
+  transform: rotate(34deg) translateX(-200%);
+  animation-name: lightMv;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes lightMv {
+  0% {
+    transform: rotate(34deg) translateX(-200%);
+  }
+  100% {
+    transform: rotate(34deg) translateX(200%);
+  }
+}
+.card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .add {
+  position: relative;
+  margin-top: -4vw;
+  margin-left: -1.5vw;
+  background: linear-gradient(to right, #d2a770 0%, #f2ca8c 49%, #d2a770 100%);
+  -webkit-mask-image: url(../images/add.svg);
+  mask-image: url(../images/add.svg);
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  width: 4.5vw;
+  overflow: hidden;
+}
+@media all and (max-width: 1440px) {
+  .card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .add {
+    width: 6vw;
+    height: 18vw;
+  }
+}
+@media all and (max-width: 1024px) {
+  .card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .add {
+    height: 35vw;
+    width: 12vw;
+  }
+}
+@media all and (max-width: 500px) {
+  .card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .add {
+    height: 40vw;
+    width: 12vw;
+  }
+}
+.card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .add .light {
+  position: relative;
+  z-index: 1;
+  width: 70%;
+  height: 128%;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 100%);
+  transform: rotate(34deg) translateX(-200%);
+  animation-name: lightMv;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 .card1-card2 .card1 .line-one-box .c1-small-logo {
   position: absolute;

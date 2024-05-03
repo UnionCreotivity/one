@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="_圖層_2" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 142.24 142.24">
+<svg id="_圖層_2" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 142.24 142.24">
   <defs>
     <style>
       .cls-1 {
         fill: url(#_未命名漸層_17);
       }
     </style>
-    <linearGradient id="_未命名漸層_17" data-name="未命名漸層 17" x1="71.12" y1="142.24" x2="71.12" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#00e8ff"/>
-      <stop offset=".43" stop-color="#0080ff"/>
-      <stop offset=".97" stop-color="#003baf"/>
+    <linearGradient id="_未命名漸層_17" data-name="未命名漸層 17" x1="71.12" y1="142.24" x2="71.12" y2="0"
+      gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00e8ff" />
+      <stop offset=".43" stop-color="#0080ff" />
+      <stop offset=".97" stop-color="#003baf" />
     </linearGradient>
   </defs>
   <g id="_圖層_2-2" data-name="圖層 2">
-    <circle class="cls-1" cx="71.12" cy="71.12" r="71.12"/>
+    <circle class="cls-1" cx="71.12" cy="71.12" r="71.12" />
   </g>
 </svg>

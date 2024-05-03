@@ -89,19 +89,57 @@ window.onload = function () {
         },
     });
 
+    function c1TextAni() {
+        const item = document.querySelectorAll('.logo-item');
+        let tl = gsap.timeline({
+
+        });
+
+        tl.from(item, {
+            duration: 1.2,
+            // opacity: 0,
+            y: 900,
+            scale: 3,
+            ease: "power2.inOut",
+            stagger: {
+                each: 0.08,
+                from: 'random'
+            },
+            filter: 'blur(20px)',
+            xPercent: (pos) => gsap.utils.random(-2500, 2500),
+            yPercent: (pos) => gsap.utils.random(-2500, 2500),
+            onStart: () => {
+                setTimeout(c1ScrollAni, 1400); // 在動畫開始後1秒調用c1ScrollAni函數
+            }
+        })
+            .from('.c1-circle', {
+                duration: 0.6,
+                scale: 0,
+                ease: "power2.inOut",
+            })
+
+    }
+    c1TextAni();
+
     function c1ScrollAni() {
         let lineTl = gsap.timeline({
+            // repeat: -1,
             scrollTrigger: {
-                toggleActions: "play none restart none",
+                // toggleActions: "play none restart none",
                 trigger: '.card1',
-                start: "-5% top",
-                end: 'center top',
+                // start: "-5% top",
+                // end: 'center top',
+
             }
         });
-        lineTl.to(".js-line_mask_2_1", { strokeDashoffset: 0, duration: 1, })
-            .to(".js-line_mask_2_2", { strokeDashoffset: 0, duration: 1, }, '<0.5')
+        lineTl.to(".js-line_mask_2_1", { strokeDashoffset: 0, duration: 0.7, })
+            .to(".js-line_mask_2_2", { strokeDashoffset: 0, duration: 0.7, }, '<0.4')
+
+        // .to(".js-line_mask_2_1", { strokeDashoffset: -1920, duration: 0.7, delay: 2 })
+        // .to(".js-line_mask_2_2", { strokeDashoffset: -1920, duration: 0.7, }, '<0.4')
     }
-    c1ScrollAni();
+    // c1ScrollAni();
+
 
     // function c2ScrollAni() {
     //     let tl = gsap.timeline({

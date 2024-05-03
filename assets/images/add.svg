@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_圖層_2" data-name="圖層 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 103.54 103.54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="14.78" y1="-36.44" x2="91.45" y2="146.4" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#976d4a"/>
+      <stop offset=".28" stop-color="#d2a770"/>
+      <stop offset=".55" stop-color="#f2ca8c"/>
+      <stop offset=".64" stop-color="#e3bc81"/>
+      <stop offset=".8" stop-color="#be9864"/>
+      <stop offset=".89" stop-color="#a58051"/>
+      <stop offset="1" stop-color="#987548"/>
+    </linearGradient>
+  </defs>
+  <g id="_圖層_2-2" data-name="圖層 2">
+    <polygon class="cls-1" points="103.54 39.6 63.94 39.6 63.94 0 39.6 0 39.6 39.6 0 39.6 0 63.94 39.6 63.94 39.6 103.54 63.94 103.54 63.94 63.94 103.54 63.94 103.54 39.6"/>
+  </g>
+</svg>
