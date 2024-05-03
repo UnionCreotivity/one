@@ -1,0 +1,28 @@
+.card4 {
+  position: relative;
+  width: 100%;
+  z-index: 2;
+  margin-top: -0.3vw;
+  .swiper {
+    width: 100%;
+    display: flex;
+    .swiper-wrapper {
+      width: 100%;
+      .swiper-slide {
+        position: relative;
+        img {
+          width: 100%;
+        }
+        .hint {
+          @include hint();
+        }
+      }
+    }
+
+    .swiper-pagination-bullet {
+      background-color: white;
+      width: 10px;
+      height: 10px;
+    }
+  }
+}

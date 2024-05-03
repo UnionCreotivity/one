@@ -1,0 +1,143 @@
+.card13 {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-bottom: 4vw;
+
+  .line-absolute-box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    // height: 100vh;
+    width: 100%;
+    .line-two-box {
+      width: 100%;
+      position: relative;
+      height: 97vh;
+      z-index: 5;
+      .absolute3 {
+        position: absolute;
+        width: 100%;
+        top: -15%;
+        left: 0px;
+
+        .relative {
+          position: relative;
+          width: 100%;
+          svg {
+            width: 100%;
+          }
+        }
+      }
+      .absolute4 {
+        position: absolute;
+        width: 100%;
+        top: -15%;
+        left: 0px;
+        .relative {
+          position: relative;
+          width: 100%;
+          svg {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .c13-circle {
+    position: absolute;
+    right: 10vw;
+    top: 15vw;
+    width: 7%;
+    z-index: 10;
+  }
+
+  .top-box {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    z-index: 10;
+    .zh-title {
+      @include ZHtitle();
+      display: flex;
+      text-shadow: initial;
+      justify-content: center;
+      margin-bottom: 2vw;
+    }
+
+    .content {
+      @include content();
+      display: flex;
+      text-shadow: initial;
+      justify-content: center;
+    }
+  }
+
+  .content-box {
+    padding-left: 20%;
+    position: relative;
+    display: flex;
+
+    .left-box {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      padding-left: 1vw;
+      padding-top: 27vw;
+      z-index: 10;
+
+      .img-box {
+        width: 75%;
+        margin-bottom: 1.5vw;
+        img {
+          width: 100%;
+        }
+      }
+      .text {
+        width: 100%;
+
+        .en-title {
+          border-bottom: 1px solid white;
+
+          @include ENtitle();
+          padding-bottom: 0.2vw;
+        }
+      }
+    }
+
+    .right-box {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      padding-top: 7.8vw;
+      margin-left: 4vw;
+      z-index: 10;
+
+      .img-box {
+        width: 68%;
+        margin-bottom: 2vw;
+        img {
+          width: 100%;
+        }
+      }
+
+      .zh-title {
+        @include ZHtitle();
+        display: flex;
+        text-shadow: initial;
+        margin-bottom: 2vw;
+      }
+
+      .content {
+        @include content();
+        display: flex;
+        text-shadow: initial;
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+.card9 {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 98vh;
+  overflow: hidden;
+  padding-top: 6vw;
+  background-size: cover;
+  background-image: url(../images/c9_bg.png);
+  margin-top: -0.3vw;
+
+  .line-absolute-box {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+  }
+
+  .line-one-box {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+
+    .absolute1 {
+      position: absolute;
+      top: -7%;
+      left: -14%;
+      width: 100%;
+      z-index: 10;
+
+      .relative {
+        position: relative;
+        width: 110%;
+
+        svg {
+          width: 110%;
+        }
+      }
+    }
+
+    .absolute2 {
+      position: absolute;
+      width: 100%;
+      top: -7%;
+      left: -14%;
+      z-index: 10;
+      .relative {
+        position: relative;
+        width: 110%;
+        svg {
+          width: 110%;
+        }
+      }
+    }
+  }
+
+  .c9-circle {
+    position: absolute;
+    width: 7%;
+    top: 13%;
+    right: 7%;
+  }
+
+  .content-box {
+    padding-left: 20%;
+    position: relative;
+    display: flex;
+
+    .left-box {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      padding-left: 2vw;
+      z-index: 10;
+
+      .img-box {
+        width: 77%;
+        margin-bottom: 3vw;
+        img {
+          width: 100%;
+        }
+      }
+      .text {
+        width: 100%;
+
+        .en-title {
+          border-bottom: 1px solid white;
+
+          @include ENtitle();
+          padding-bottom: 0.2vw;
+        }
+      }
+    }
+
+    .right-box {
+      display: flex;
+      flex-direction: column;
+      margin-left: -3vw;
+      .zh-title {
+        text-align: left;
+        @include ZHtitle();
+        text-shadow: initial;
+        z-index: 4;
+      }
+      .content {
+        @include content();
+        margin-top: 2vw;
+        text-align: justify;
+        text-shadow: initial;
+        z-index: 4;
+      }
+    }
+  }
+
+  .c9-img-absolute {
+    position: absolute;
+    width: 17%;
+    right: 20%;
+    bottom: 10%;
+    z-index: 0;
+  }
+}

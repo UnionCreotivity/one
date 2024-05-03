@@ -1,0 +1,51 @@
+.card3 {
+  position: relative;
+  width: 100%;
+  .aerial-box {
+    display: flex;
+    width: 100%;
+    position: relative;
+    .hint {
+      display: block;
+      content: "空拍合成示意圖";
+      @include gridHint();
+    }
+    .photo-box {
+      position: relative;
+    }
+    .aerial {
+      display: flex;
+      @media all and (max-width: 1024px) {
+        width: 100%;
+        position: relative;
+        overflow-x: scroll;
+      }
+      .aerial-photo {
+        width: 100%;
+        @media all and (max-width: 1024px) {
+          width: auto;
+          height: 80vh;
+          max-width: unset !important;
+        }
+      }
+    }
+
+    .title-box {
+      position: absolute;
+      top: 15%;
+      left: 51%;
+      transform: translate(-50%, -50%);
+
+      .zh-title {
+        text-align: center;
+        margin-bottom: 1.5vw;
+        @include ZHtitle();
+      }
+      .content {
+        @include content();
+        text-align: center;
+        text-shadow: 0 0 0.35em rgba(0, 0, 0, 0.63);
+      }
+    }
+  }
+}

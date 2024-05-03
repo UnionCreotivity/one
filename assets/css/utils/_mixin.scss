@@ -1,0 +1,79 @@
+@mixin ENtitle() {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 3vw;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+
+  @media all and (max-width: 1024px) {
+    font-size: 7.8125vw;
+  }
+}
+
+@mixin ZHtitle() {
+  font-family: "Noto Serif TC", serif;
+  color: #e8c085;
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  font-size: 1.8vw;
+  text-shadow: 0 0 0.35em rgba(0, 0, 0, 0.63);
+  @media all and (max-width: 1024px) {
+    font-size: 5.5vw;
+  }
+}
+
+@mixin content() {
+  font-family: "微軟正黑體";
+  font-size: 18pt;
+  color: #ffffff;
+  letter-spacing: 0.15em;
+  line-height: 1.8vw;
+
+  @media all and (max-width: 1024px) {
+    font-size: 3.7vw;
+    line-height: 1.7em;
+  }
+}
+
+@mixin hint() {
+  position: absolute;
+  z-index: 99;
+  color: white;
+  bottom: 0.7vw;
+  font-size: 20px;
+  font-size: 0.7vw;
+  right: 1vw;
+  text-shadow: rgb(37, 37, 37) 1px 0 10px;
+  font-family: "Noto Sans TC", sans-serif;
+  letter-spacing: 0.15em;
+
+  @media all and (max-width: 1024px) {
+    font-size: 16px;
+    bottom: 1vw;
+  }
+
+  @media all and (max-width: 500px) {
+    font-size: 13px;
+  }
+}
+@mixin gridHint() {
+  position: absolute;
+  font-family: "Noto Sans TC", sans-serif;
+  z-index: 99;
+  color: white;
+  bottom: 0.7vw;
+  font-size: 20px;
+  font-size: 0.7vw;
+  right: 0.7vw;
+  text-shadow: rgb(37, 37, 37) 1px 0 10px;
+  letter-spacing: 0.15em;
+  @media all and (max-width: 1024px) {
+    font-size: 16px;
+    bottom: 1vw;
+  }
+
+  @media all and (max-width: 500px) {
+    font-size: 13px;
+  }
+}

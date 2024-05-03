@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.5.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	y="0px" viewBox="0 0 1920 1080" style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
+	<style type="text/css">
+		.frontst0 {
+			fill: #8851D6;
+		}
+
+		.frontst1 {
+			fill: #8852D6;
+		}
+
+		.frontst2 {
+			fill: #8752D6;
+		}
+
+		.frontst3 {
+			fill: #8753D7;
+		}
+
+		.frontst4 {
+			fill: #8653D7;
+		}
+
+		.frontst5 {
+			fill: #8654D7;
+		}
+
+		.frontst6 {
+			fill: #8554D7;
+		}
+
+		.frontst7 {
+			fill: #8555D7;
+		}
+
+		.frontst8 {
+			fill: #8456D8;
+		}
+
+		.frontst9 {
+			fill: #8457D8;
+		}
+
+		.frontst10 {
+			fill: #8357D8;
+		}
+
+		.frontst11 {
+			fill: #8358D8;
+		}
+
+		.frontst12 {
+			fill: #8258D8;
+		}
+
+		.frontst13 {
+			fill: #8259D9;
+		}
+
+		.frontst14 {
+			fill: #8159D9;
+		}
+
+		.frontst15 {
+			fill: #815AD9;
+		}
+
+		.frontst16 {
+			fill: #815BD9;
+		}
+
+		.frontst17 {
+			fill: #805BD9;
+		}
+
+		.frontst18 {
+			fill: #805CDA;
+		}
+
+		.frontst19 {
+			fill: #7F5CDA;
+		}
+
+		.frontst20 {
+			fill: #7F5DDA;
+		}
+
+		.frontst21 {
+			fill: #7E5DDA;
+		}
+
+		.frontst22 {
+			fill: #7E5EDA;
+		}
+
+		.frontst23 {
+			fill: #7D5EDA;
+		}
+
+		.frontst24 {
+			fill: #7D5FDB;
+		}
+
+		.frontst25 {
+			fill: #7C60DB;
+		}
+
+		.frontst26 {
+			fill: #7C61DB;
+		}
+
+		.frontst27 {
+			fill: #7B61DB;
+		}
+
+		.frontst28 {
+			fill: #7B62DC;
+		}
+
+		.frontst29 {
+			fill: #7A62DC;
+		}
+
+		.frontst30 {
+			fill: #7A63DC;
+		}
+
+		.frontst31 {
+			fill: #7963DC;
+		}
+
+		.frontst32 {
+			fill: #7964DC;
+		}
+
+		.frontst33 {
+			fill: #7965DD;
+		}
+
+		.frontst34 {
+			fill: #7865DD;
+		}
+
+		.frontst35 {
+			fill: #7866DD;
+		}
+
+		.frontst36 {
+			fill: #7766DD;
+		}
+
+		.frontst37 {
+			fill: #7767DD;
+		}
+
+		.frontst38 {
+			fill: #7667DD;
+		}
+
+		.frontst39 {
+			fill: #7668DE;
+		}
+
+		.frontst40 {
+			fill: #7569DE;
+		}
+
+		.frontst41 {
+			fill: #756ADE;
+		}
+
+		.frontst42 {
+			fill: #746ADE;
+		}
+
+		.frontst43 {
+			fill: #746BDF;
+		}
+
+		.frontst44 {
+			fill: #736BDF;
+		}
+
+		.frontst45 {
+			fill: #736CDF;
+		}
+
+		.frontst46 {
+			fill: #726CDF;
+		}
+
+		.frontst47 {
+			fill: #726DDF;
+		}
+
+		.frontst48 {
+			fill: #726EE0;
+		}
+
+		.frontst49 {
+			fill: #716EE0;
+		}
+
+		.frontst50 {
+			fill: #716FE0;
+		}
+
+		.frontst51 {
+			fill: #706FE0;
+		}
+
+		.frontst52 {
+			fill: #7070E0;
+		}
+
+		.frontst53 {
+			fill: #6F70E0;
+		}
+
+		.frontst54 {
+			fill: #6F71E1;
+		}
+
+		.frontst55 {
+			fill: #6E72E1;
+		}
+
+		.frontst56 {
+			fill: #6D73E1;
+		}
+
+		.frontst57 {
+			fill: #6D74E2;
+		}
+
+		.frontst58 {
+			fill: #6C74E2;
+		}
+
+		.frontst59 {
+			fill: #6C75E2;
+		}
+
+		.frontst60 {
+			fill: #6B75E2;
+		}
+
+		.frontst61 {
+			fill: #6B76E2;
+		}
+
+		.frontst62 {
+			fill: #6A76E2;
+		}
+
+		.frontst63 {
+			fill: #6A77E3;
+		}
+
+		.frontst64 {
+			fill: #6A78E3;
+		}
+
+		.frontst65 {
+			fill: #6978E3;
+		}
+
+		.frontst66 {
+			fill: #6979E3;
+		}
+
+		.frontst67 {
+			fill: #6879E3;
+		}
+
+		.frontst68 {
+			fill: #687AE4;
+		}
+
+		.frontst69 {
+			fill: #677AE4;
+		}
+
+		.frontst70 {
+			fill: #677BE4;
+		}
+
+		.frontst71 {
+			fill: #667CE4;
+		}
+
+		.frontst72 {
+			fill: #667DE5;
+		}
+
+		.frontst73 {
+			fill: #657DE5;
+		}
+
+		.frontst74 {
+			fill: #657EE5;
+		}
+
+		.frontst75 {
+			fill: #647EE5;
+		}
+	</style>
+	<g>
+		<circle class="frontst0" cx="-154.5" cy="624.8" r="15.5" />
+		<circle class="frontst0" cx="-146.8" cy="618.9" r="15.6" />
+		<path class="frontst1" d="M-123.3,613.2c0,8.7-7,15.7-15.7,15.7c-8.7,0-15.7-7-15.7-15.7c0-8.7,7-15.7,15.7-15.7
+		C-130.3,597.4-123.3,604.5-123.3,613.2z" />
+		<circle class="frontst2" cx="-131.1" cy="607.6" r="15.8" />
+		<circle class="frontst2" cx="-123.1" cy="602.1" r="16" />
+		<circle class="frontst3" cx="-115" cy="596.8" r="16.1" />
+		<circle class="frontst3" cx="-106.9" cy="591.7" r="16.2" />
+		<circle class="frontst4" cx="-98.6" cy="586.6" r="16.3" />
+		<circle class="frontst4" cx="-90.2" cy="581.8" r="16.4" />
+		<circle class="frontst5" cx="-81.8" cy="577" r="16.5" />
+		<circle class="frontst5" cx="-73.3" cy="572.5" r="16.6" />
+		<circle class="frontst6" cx="-64.7" cy="568" r="16.7" />
+		<circle class="frontst7" cx="-56" cy="563.7" r="16.8" />
+		<circle class="frontst7" cx="-47.3" cy="559.6" r="16.9" />
+		<circle class="frontst7" cx="-38.5" cy="555.6" r="17.1" />
+		<circle class="frontst8" cx="-29.6" cy="551.8" r="17.2" />
+		<circle class="frontst8" cx="-20.6" cy="548.1" r="17.3" />
+		<circle class="frontst8" cx="-11.6" cy="544.6" r="17.4" />
+		<circle class="frontst9" cx="-2.6" cy="541.2" r="17.5" />
+		<circle class="frontst10" cx="6.6" cy="538" r="17.6" />
+		<circle class="frontst10" cx="15.7" cy="534.9" r="17.7" />
+		<circle class="frontst10" cx="25" cy="532" r="17.8" />
+		<circle class="frontst11" cx="34.2" cy="529.3" r="17.9" />
+		<circle class="frontst12" cx="43.6" cy="526.7" r="18" />
+		<circle class="frontst12" cx="52.9" cy="524.3" r="18.2" />
+		<circle class="frontst13" cx="62.3" cy="522.1" r="18.3" />
+		<circle class="frontst13" cx="71.8" cy="520" r="18.4" />
+		<circle class="frontst14" cx="81.3" cy="518.1" r="18.5" />
+		<circle class="frontst15" cx="90.8" cy="516.3" r="18.6" />
+		<circle class="frontst15" cx="100.3" cy="514.7" r="18.7" />
+		<circle class="frontst15" cx="109.9" cy="513.3" r="18.8" />
+		<circle class="frontst16" cx="119.5" cy="512" r="18.9" />
+		<circle class="frontst17" cx="129.1" cy="511" r="19" />
+		<circle class="frontst17" cx="138.7" cy="510.1" r="19.2" />
+		<circle class="frontst17" cx="148.4" cy="509.3" r="19.3" />
+		<circle class="frontst18" cx="158" cy="508.8" r="19.4" />
+		<circle class="frontst19" cx="167.7" cy="508.4" r="19.5" />
+		<circle class="frontst19" cx="177.3" cy="508.2" r="19.6" />
+		<circle class="frontst20" cx="187" cy="508.1" r="19.7" />
+		<circle class="frontst20" cx="196.7" cy="508.2" r="19.8" />
+		<circle class="frontst21" cx="206.4" cy="508.5" r="19.9" />
+		<circle class="frontst22" cx="216" cy="509" r="20" />
+		<circle class="frontst22" cx="225.7" cy="509.6" r="20.1" />
+		<circle class="frontst22" cx="235.3" cy="510.4" r="20.3" />
+		<circle class="frontst23" cx="244.9" cy="511.3" r="20.4" />
+		<circle class="frontst24" cx="254.5" cy="512.5" r="20.5" />
+		<circle class="frontst24" cx="264.1" cy="513.7" r="20.6" />
+		<circle class="frontst24" cx="273.7" cy="515.2" r="20.7" />
+		<circle class="frontst25" cx="283.2" cy="516.8" r="20.8" />
+		<circle class="frontst25" cx="292.7" cy="518.6" r="20.9" />
+		<circle class="frontst25" cx="302.2" cy="520.5" r="21" />
+		<circle class="frontst26" cx="311.6" cy="522.6" r="21.1" />
+		<circle class="frontst27" cx="321" cy="524.9" r="21.2" />
+		<circle class="frontst27" cx="330.4" cy="527.3" r="21.4" />
+		<circle class="frontst28" cx="339.7" cy="529.9" r="21.5" />
+		<circle class="frontst28" cx="349" cy="532.7" r="21.6" />
+		<circle class="frontst29" cx="358.2" cy="535.6" r="21.7" />
+		<circle class="frontst29" cx="367.4" cy="538.7" r="21.8" />
+		<circle class="frontst30" cx="376.5" cy="541.9" r="21.9" />
+		<circle class="frontst30" cx="385.6" cy="545.3" r="22" />
+		<circle class="frontst31" cx="394.6" cy="548.8" r="22.1" />
+		<circle class="frontst32" cx="403.5" cy="552.6" r="22.2" />
+		<circle class="frontst32" cx="412.4" cy="556.4" r="22.3" />
+		<circle class="frontst32" cx="421.2" cy="560.4" r="22.5" />
+		<circle class="frontst33" cx="429.9" cy="564.6" r="22.6" />
+		<circle class="frontst34" cx="438.7" cy="569.1" r="22.7" />
+		<circle class="frontst34" cx="447.4" cy="573.7" r="22.8" />
+		<circle class="frontst35" cx="455.8" cy="578.5" r="22.9" />
+		<circle class="frontst35" cx="464.1" cy="583.5" r="23" />
+		<circle class="frontst36" cx="472.2" cy="588.7" r="23.1" />
+		<circle class="frontst36" cx="480.2" cy="594" r="23.2" />
+		<circle class="frontst37" cx="488" cy="599.5" r="23.3" />
+		<circle class="frontst37" cx="495.7" cy="605.1" r="23.5" />
+		<circle class="frontst38" cx="503.2" cy="611" r="23.6" />
+		<circle class="frontst39" cx="510.7" cy="617" r="23.7" />
+		<circle class="frontst39" cx="518.1" cy="623.1" r="23.8" />
+		<circle class="frontst39" cx="525.4" cy="629.5" r="23.9" />
+		<circle class="frontst40" cx="532.6" cy="636" r="24" />
+		<circle class="frontst40" cx="539.8" cy="642.6" r="24.1" />
+		<circle class="frontst40" cx="546.9" cy="649.4" r="24.2" />
+		<circle class="frontst41" cx="554" cy="656.1" r="24.3" />
+		<circle class="frontst42" cx="561" cy="662.7" r="24.4" />
+		<circle class="frontst42" cx="568.1" cy="669.4" r="24.6" />
+		<circle class="frontst42" cx="575" cy="676.1" r="24.7" />
+		<circle class="frontst43" cx="581.9" cy="682.9" r="24.8" />
+		<circle class="frontst44" cx="588.6" cy="689.8" r="24.9" />
+		<circle class="frontst44" cx="595.2" cy="696.8" r="25" />
+		<circle class="frontst45" cx="601.5" cy="704" r="25.1" />
+		<circle class="frontst45" cx="607.6" cy="711.3" r="25.2" />
+		<circle class="frontst46" cx="613.4" cy="718.9" r="25.3" />
+		<circle class="frontst47" cx="618.9" cy="726.8" r="25.4" />
+		<circle class="frontst47" cx="624.1" cy="735" r="25.5" />
+		<circle class="frontst47" cx="628.8" cy="743.5" r="25.7" />
+		<circle class="frontst48" cx="633.1" cy="752.3" r="25.8" />
+		<circle class="frontst49" cx="636.9" cy="761.4" r="25.9" />
+		<circle class="frontst49" cx="640" cy="770.7" r="26" />
+		<circle class="frontst49" cx="642.4" cy="780.3" r="26.1" />
+		<circle class="frontst50" cx="644.1" cy="790" r="26.2" />
+		<circle class="frontst51" cx="645.2" cy="799.9" r="26.3" />
+		<circle class="frontst51" cx="645.5" cy="809.8" r="26.4" />
+		<circle class="frontst52" cx="645.1" cy="819.6" r="26.5" />
+		<circle class="frontst52" cx="644" cy="829.3" r="26.7" />
+		<circle class="frontst53" cx="642.2" cy="838.8" r="26.8" />
+		<circle class="frontst54" cx="639.6" cy="848.1" r="26.9" />
+		<circle class="frontst54" cx="636.2" cy="856.9" r="27" />
+		<circle class="frontst54" cx="632" cy="865.4" r="27.1" />
+		<circle class="frontst55" cx="627" cy="873.4" r="27.2" />
+		<circle class="frontst55" cx="621.2" cy="880.8" r="27.3" />
+		<circle class="frontst55" cx="614.6" cy="887.5" r="27.4" />
+		<circle class="frontst55" cx="607.2" cy="893.5" r="27.5" />
+		<circle class="frontst56" cx="599.1" cy="898.7" r="27.6" />
+		<circle class="frontst56" cx="590.6" cy="902.8" r="27.8" />
+		<circle class="frontst56" cx="581.9" cy="905.9" r="27.9" />
+		<circle class="frontst57" cx="572.9" cy="908.1" r="28" />
+		<circle class="frontst58" cx="563.7" cy="909.4" r="28.1" />
+		<circle class="frontst58" cx="554.3" cy="909.9" r="28.2" />
+		<circle class="frontst59" cx="544.9" cy="909.6" r="28.3" />
+		<circle class="frontst59" cx="535.4" cy="908.6" r="28.4" />
+		<circle class="frontst60" cx="525.8" cy="906.8" r="28.5" />
+		<circle class="frontst61" cx="516.3" cy="904.4" r="28.6" />
+		<circle class="frontst61" cx="506.8" cy="901.5" r="28.7" />
+		<circle class="frontst61" cx="497.5" cy="898" r="28.9" />
+		<circle class="frontst62" cx="488.3" cy="894" r="29" />
+		<circle class="frontst63" cx="479.3" cy="889.5" r="29.1" />
+		<circle class="frontst63" cx="470.6" cy="884.7" r="29.2" />
+		<circle class="frontst63" cx="462.1" cy="879.5" r="29.3" />
+		<circle class="frontst64" cx="454" cy="874" r="29.4" />
+		<circle class="frontst65" cx="446.2" cy="868.3" r="29.5" />
+		<circle class="frontst65" cx="438.6" cy="862.4" r="29.6" />
+		<circle class="frontst66" cx="431.1" cy="856.3" r="29.7" />
+		<circle class="frontst66" cx="423.9" cy="850" r="29.8" />
+		<circle class="frontst67" cx="416.8" cy="843.5" r="30" />
+		<circle class="frontst67" cx="409.8" cy="836.8" r="30.1" />
+		<circle class="frontst68" cx="403.1" cy="829.9" r="30.2" />
+		<circle class="frontst68" cx="396.5" cy="822.9" r="30.3" />
+		<circle class="frontst69" cx="390.1" cy="815.7" r="30.4" />
+		<circle class="frontst70" cx="383.9" cy="808.3" r="30.5" />
+		<circle class="frontst70" cx="377.8" cy="800.8" r="30.6" />
+		<circle class="frontst70" cx="371.9" cy="793.2" r="30.7" />
+		<circle class="frontst71" cx="366.2" cy="785.4" r="30.8" />
+		<circle class="frontst71" cx="360.7" cy="777.5" r="31" />
+		<circle class="frontst71" cx="355.3" cy="769.4" r="31.1" />
+		<circle class="frontst72" cx="350.1" cy="761.2" r="31.2" />
+		<circle class="frontst73" cx="345.1" cy="752.9" r="31.3" />
+		<circle class="frontst73" cx="340.2" cy="744.5" r="31.4" />
+		<circle class="frontst73" cx="335.6" cy="736" r="31.5" />
+		<circle class="frontst74" cx="331" cy="727.4" r="31.6" />
+		<circle class="frontst75" cx="326.7" cy="718.8" r="31.7" />
+		<circle class="frontst75" cx="322.5" cy="710" r="31.8" />
+	</g>
+</svg>

@@ -1,0 +1,114 @@
+.card7 {
+  position: relative;
+  width: 100%;
+  height: 96vh;
+  overflow: hidden;
+  background-size: cover;
+  background-image: url(../images/c7_bg.png);
+  margin-top: -0.3vw;
+  .line-absolute-box {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    // height: 100vh;
+    width: 100%;
+    .line-two-box {
+      width: 100%;
+      position: relative;
+      height: 97vh;
+      z-index: 5;
+      .absolute3 {
+        position: absolute;
+        width: 100%;
+        top: -15%;
+        left: 0px;
+
+        .relative {
+          position: relative;
+          width: 100%;
+          svg {
+            width: 100%;
+          }
+        }
+      }
+      .absolute4 {
+        position: absolute;
+        width: 100%;
+        top: -15%;
+        left: 0px;
+        .relative {
+          position: relative;
+          width: 100%;
+          svg {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .c7-circle {
+    position: absolute;
+    width: 7%;
+    bottom: 13%;
+    left: 5%;
+  }
+  .content-box {
+    display: flex;
+    position: relative;
+    padding-left: 20%;
+
+    .left-box {
+      display: flex;
+      flex-direction: column;
+      padding-top: 26vw;
+      margin-left: 2vw;
+      z-index: 15;
+      .img-box {
+        width: 77%;
+        margin-bottom: 1.5vw;
+        img {
+          width: 100%;
+        }
+      }
+      .text {
+        width: 100%;
+
+        .en-title {
+          border-bottom: 1px solid white;
+          @include ENtitle();
+          padding-bottom: 0.2vw;
+        }
+      }
+    }
+    .right-box {
+      display: flex;
+      flex-direction: column;
+      padding-top: 7%;
+      margin-left: 10vw;
+      z-index: 0;
+      .img-box {
+        width: 80%;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .zh-title {
+        text-align: left;
+        position: relative;
+        z-index: 15;
+        @include ZHtitle();
+        text-shadow: initial;
+        margin-top: 7vw;
+      }
+      .content {
+        @include content();
+        z-index: 10;
+        margin-top: 2vw;
+        text-align: justify;
+        text-shadow: initial;
+      }
+    }
+  }
+}

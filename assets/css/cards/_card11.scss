@@ -1,0 +1,42 @@
+.card11 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+  margin-top: -0.3vw;
+  .top-title-box {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    .zh-title {
+      @include ZHtitle();
+      text-shadow: initial;
+      text-align: center;
+      color: #a8814e;
+    }
+    .content {
+      @include content();
+      z-index: 10;
+      margin-top: 2vw;
+      text-align: center;
+      text-shadow: initial;
+      color: #232323;
+    }
+  }
+
+  .img-box {
+    width: 100%;
+    display: flex;
+    img {
+      width: 100%;
+    }
+    .hint {
+      @include hint();
+    }
+  }
+}
