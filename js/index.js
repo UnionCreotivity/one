@@ -127,8 +127,8 @@ window.onload = function () {
             }
         });
         lineTl
-            .to(".c5-line-mask_path", { strokeDashoffset: 0, duration: 0.8, })
-            .to(".c5-2-line-mask_path", { strokeDashoffset: 0, duration: 1, }, '<0.6')
+            .to(".c5-line-mask_path", { strokeDashoffset: 0, duration: 0.5, })
+            .to(".c5-2-line-mask_path", { strokeDashoffset: 0, duration: 0.6, }, '<0.3')
 
     }
     c5ScrollAni();
@@ -158,8 +158,8 @@ window.onload = function () {
             }
         });
         lineTl
-            .to(".c9-line-mask_path", { strokeDashoffset: 0, duration: 1, })
-            .to(".c9-line-mask2_path", { strokeDashoffset: 0, duration: 1, }, '<0.5')
+            .to(".c9-line-mask_path", { strokeDashoffset: 0, duration: 0.8, })
+            .to(".c9-line-mask2_path", { strokeDashoffset: 0, duration: 0.7, }, '<0.4')
     }
     c9ScrollAni();
 

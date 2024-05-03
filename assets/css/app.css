@@ -9,8 +9,7 @@
 }
 
 body {
-  background-size: contain;
-  background-position: bottom;
+  background-size: cover;
   background-image: url(../images/bottom_bg.png);
 }
 
@@ -206,8 +205,8 @@ body {
   font-size: 18pt;
   color: #ffffff;
   letter-spacing: 0.15em;
-  line-height: 1.8vw;
-  font-size: 0.85vw;
+  line-height: 2vw;
+  font-size: 1vw;
 }
 @media all and (max-width: 1024px) {
   .card1-card2 .card2 .bottom .text-box .text .content {
@@ -304,8 +303,8 @@ body {
   font-size: 18pt;
   color: #ffffff;
   letter-spacing: 0.15em;
-  line-height: 1.8vw;
-  font-size: 0.85vw;
+  line-height: 2vw;
+  font-size: 1vw;
   text-align: center;
   text-shadow: 0 0 0.35em rgba(0, 0, 0, 0.63);
 }
@@ -461,8 +460,8 @@ body {
   font-size: 18pt;
   color: #ffffff;
   letter-spacing: 0.15em;
-  line-height: 1.8vw;
-  font-size: 0.85vw;
+  line-height: 2vw;
+  font-size: 1vw;
   z-index: 10;
   margin-top: 2vw;
   text-align: justify;
@@ -688,8 +687,8 @@ body {
   font-size: 18pt;
   color: #ffffff;
   letter-spacing: 0.15em;
-  line-height: 1.8vw;
-  font-size: 0.85vw;
+  line-height: 2vw;
+  font-size: 1vw;
   z-index: 10;
   margin-top: 2vw;
   text-align: justify;
@@ -874,8 +873,8 @@ body {
   font-size: 18pt;
   color: #ffffff;
   letter-spacing: 0.15em;
-  line-height: 1.8vw;
-  font-size: 0.85vw;
+  line-height: 2vw;
+  font-size: 1vw;
   margin-top: 2vw;
   text-align: justify;
   text-shadow: initial;
@@ -981,8 +980,8 @@ body {
   font-size: 18pt;
   color: #ffffff;
   letter-spacing: 0.15em;
-  line-height: 1.8vw;
-  font-size: 0.85vw;
+  line-height: 2vw;
+  font-size: 1vw;
   z-index: 10;
   margin-top: 2vw;
   text-align: center;
@@ -1182,8 +1181,8 @@ body {
   font-size: 18pt;
   color: #ffffff;
   letter-spacing: 0.15em;
-  line-height: 1.8vw;
-  font-size: 0.85vw;
+  line-height: 2vw;
+  font-size: 1vw;
   display: flex;
   text-shadow: initial;
   justify-content: center;
@@ -1268,8 +1267,8 @@ body {
   font-size: 18pt;
   color: #ffffff;
   letter-spacing: 0.15em;
-  line-height: 1.8vw;
-  font-size: 0.85vw;
+  line-height: 2vw;
+  font-size: 1vw;
   display: flex;
   text-shadow: initial;
 }
@@ -1285,9 +1284,9 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100vh;
   padding-top: 4vw;
   padding-left: 13vw;
+  padding-bottom: 6vw;
 }
 .card14 .content-box {
   display: flex;
@@ -1298,6 +1297,7 @@ body {
 .card14 .content-box .left-box {
   display: flex;
   flex-direction: column;
+  width: 63%;
 }
 .card14 .content-box .left-box .zh-title {
   font-family: "Noto Serif TC", serif;
@@ -1319,8 +1319,8 @@ body {
   font-size: 18pt;
   color: #ffffff;
   letter-spacing: 0.15em;
-  line-height: 1.8vw;
-  font-size: 0.85vw;
+  line-height: 2vw;
+  font-size: 1vw;
   text-shadow: initial;
 }
 @media all and (max-width: 1024px) {
@@ -1341,13 +1341,12 @@ body {
 .card14 .content-box2 {
   display: flex;
   width: 100%;
-  padding-left: 5vw;
   margin-top: 5vw;
 }
 .card14 .content-box2 .left-box {
   display: flex;
   flex-direction: column;
-  width: 33%;
+  width: 38%;
 }
 .card14 .content-box2 .left-box .swiper {
   width: 100%;
@@ -1438,8 +1437,8 @@ body {
   font-size: 18pt;
   color: #ffffff;
   letter-spacing: 0.15em;
-  line-height: 1.8vw;
-  font-size: 0.85vw;
+  line-height: 2vw;
+  font-size: 1vw;
   text-shadow: initial;
 }
 @media all and (max-width: 1024px) {
