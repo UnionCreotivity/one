@@ -29,13 +29,20 @@
       left: -14%;
       width: 100%;
       z-index: 10;
-
+      @media all and (max-width: 1920px) {
+        left: -7%;
+      }
       .relative {
         position: relative;
         width: 110%;
-
+        @media all and (max-width: 1920px) {
+          width: 105%;
+        }
         svg {
           width: 110%;
+          @media all and (max-width: 1920px) {
+            width: 105%;
+          }
         }
       }
     }
@@ -46,11 +53,20 @@
       top: -7%;
       left: -14%;
       z-index: 10;
+      @media all and (max-width: 1920px) {
+        left: -7%;
+      }
       .relative {
         position: relative;
         width: 110%;
+        @media all and (max-width: 1920px) {
+          width: 105%;
+        }
         svg {
           width: 110%;
+          @media all and (max-width: 1920px) {
+            width: 105%;
+          }
         }
       }
     }
@@ -67,7 +83,9 @@
     padding-left: 20%;
     position: relative;
     display: flex;
-
+    @media all and (max-width: 1920px) {
+      padding-left: 16%;
+    }
     .left-box {
       display: flex;
       flex-direction: column;
@@ -78,6 +96,9 @@
       .img-box {
         width: 77%;
         margin-bottom: 3vw;
+        @media all and (max-width: 1920px) {
+          width: 60%;
+        }
         img {
           width: 100%;
         }
@@ -98,6 +119,9 @@
       display: flex;
       flex-direction: column;
       margin-left: -3vw;
+      @media all and (max-width: 1920px) {
+        margin-left: -13vw;
+      }
       .zh-title {
         text-align: left;
         @include ZHtitle();

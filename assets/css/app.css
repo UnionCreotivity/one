@@ -783,12 +783,27 @@ body {
   width: 100%;
   z-index: 10;
 }
+@media all and (max-width: 1920px) {
+  .card9 .line-one-box .absolute1 {
+    left: -7%;
+  }
+}
 .card9 .line-one-box .absolute1 .relative {
   position: relative;
   width: 110%;
 }
+@media all and (max-width: 1920px) {
+  .card9 .line-one-box .absolute1 .relative {
+    width: 105%;
+  }
+}
 .card9 .line-one-box .absolute1 .relative svg {
   width: 110%;
+}
+@media all and (max-width: 1920px) {
+  .card9 .line-one-box .absolute1 .relative svg {
+    width: 105%;
+  }
 }
 .card9 .line-one-box .absolute2 {
   position: absolute;
@@ -797,12 +812,27 @@ body {
   left: -14%;
   z-index: 10;
 }
+@media all and (max-width: 1920px) {
+  .card9 .line-one-box .absolute2 {
+    left: -7%;
+  }
+}
 .card9 .line-one-box .absolute2 .relative {
   position: relative;
   width: 110%;
 }
+@media all and (max-width: 1920px) {
+  .card9 .line-one-box .absolute2 .relative {
+    width: 105%;
+  }
+}
 .card9 .line-one-box .absolute2 .relative svg {
   width: 110%;
+}
+@media all and (max-width: 1920px) {
+  .card9 .line-one-box .absolute2 .relative svg {
+    width: 105%;
+  }
 }
 .card9 .c9-circle {
   position: absolute;
@@ -815,6 +845,11 @@ body {
   position: relative;
   display: flex;
 }
+@media all and (max-width: 1920px) {
+  .card9 .content-box {
+    padding-left: 16%;
+  }
+}
 .card9 .content-box .left-box {
   display: flex;
   flex-direction: column;
@@ -825,6 +860,11 @@ body {
 .card9 .content-box .left-box .img-box {
   width: 77%;
   margin-bottom: 3vw;
+}
+@media all and (max-width: 1920px) {
+  .card9 .content-box .left-box .img-box {
+    width: 60%;
+  }
 }
 .card9 .content-box .left-box .img-box img {
   width: 100%;
@@ -851,6 +891,11 @@ body {
   display: flex;
   flex-direction: column;
   margin-left: -3vw;
+}
+@media all and (max-width: 1920px) {
+  .card9 .content-box .right-box {
+    margin-left: -13vw;
+  }
 }
 .card9 .content-box .right-box .zh-title {
   text-align: left;
