@@ -8,7 +8,9 @@
   background-size: cover;
   background-image: url(../images/c9_bg.png);
   margin-top: -0.3vw;
-
+  @media all and (max-width: 1920px) {
+    height: 100vh;
+  }
   .line-absolute-box {
     position: absolute;
     width: 100%;

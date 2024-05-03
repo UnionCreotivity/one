@@ -103,10 +103,19 @@ window.onload = function () {
     }
     c1ScrollAni();
 
-    function c2ScrollAni() {
+    // function c2ScrollAni() {
+    //     let tl = gsap.timeline({
+    //         scrollTrigger: {
+    //             toggleActions: "play none restart reverse",
+    //             trigger: '.card2',
+    //             start: "-10% top",
+    //             end: 'center',
+    //         }
+    //     });
 
-    }
-    c2ScrollAni();
+    //     tl.to(".js-line_mask_2_1", { strokeDashoffset: 0, duration: 1, })
+    // }
+    // c2ScrollAni();
 
     function c5ScrollAni() {
         let lineTl = gsap.timeline({

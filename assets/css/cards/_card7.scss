@@ -6,6 +6,9 @@
   background-size: cover;
   background-image: url(../images/c7_bg.png);
   margin-top: -0.3vw;
+  @media all and (max-width: 1920px) {
+    height: 100vh;
+  }
   .line-absolute-box {
     position: absolute;
     top: 0px;
@@ -63,6 +66,11 @@
       padding-top: 26vw;
       margin-left: 2vw;
       z-index: 15;
+
+      @media all and (max-width: 1920px) {
+        padding-top: 24vw;
+      }
+
       .img-box {
         width: 77%;
         margin-bottom: 1.5vw;

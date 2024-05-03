@@ -207,6 +207,7 @@ body {
   color: #ffffff;
   letter-spacing: 0.15em;
   line-height: 1.8vw;
+  font-size: 0.85vw;
 }
 @media all and (max-width: 1024px) {
   .card1-card2 .card2 .bottom .text-box .text .content {
@@ -304,6 +305,7 @@ body {
   color: #ffffff;
   letter-spacing: 0.15em;
   line-height: 1.8vw;
+  font-size: 0.85vw;
   text-align: center;
   text-shadow: 0 0 0.35em rgba(0, 0, 0, 0.63);
 }
@@ -372,11 +374,15 @@ body {
   background-size: cover;
   background-image: url(../images/c5_bg.png);
 }
+@media all and (max-width: 1920px) {
+  .card5 {
+    height: 100vh;
+  }
+}
 .card5 .line-absolute-box {
   position: absolute;
   top: 0px;
   left: 0px;
-  border: 1px solid red;
   width: 100%;
 }
 .card5 .line-absolute-box .line-box {
@@ -456,6 +462,7 @@ body {
   color: #ffffff;
   letter-spacing: 0.15em;
   line-height: 1.8vw;
+  font-size: 0.85vw;
   z-index: 10;
   margin-top: 2vw;
   text-align: justify;
@@ -554,6 +561,11 @@ body {
   background-image: url(../images/c7_bg.png);
   margin-top: -0.3vw;
 }
+@media all and (max-width: 1920px) {
+  .card7 {
+    height: 100vh;
+  }
+}
 .card7 .line-absolute-box {
   position: absolute;
   top: 0px;
@@ -609,6 +621,11 @@ body {
   padding-top: 26vw;
   margin-left: 2vw;
   z-index: 15;
+}
+@media all and (max-width: 1920px) {
+  .card7 .content-box .left-box {
+    padding-top: 24vw;
+  }
 }
 .card7 .content-box .left-box .img-box {
   width: 77%;
@@ -672,6 +689,7 @@ body {
   color: #ffffff;
   letter-spacing: 0.15em;
   line-height: 1.8vw;
+  font-size: 0.85vw;
   z-index: 10;
   margin-top: 2vw;
   text-align: justify;
@@ -742,6 +760,11 @@ body {
   background-size: cover;
   background-image: url(../images/c9_bg.png);
   margin-top: -0.3vw;
+}
+@media all and (max-width: 1920px) {
+  .card9 {
+    height: 100vh;
+  }
 }
 .card9 .line-absolute-box {
   position: absolute;
@@ -852,6 +875,7 @@ body {
   color: #ffffff;
   letter-spacing: 0.15em;
   line-height: 1.8vw;
+  font-size: 0.85vw;
   margin-top: 2vw;
   text-align: justify;
   text-shadow: initial;
@@ -958,6 +982,7 @@ body {
   color: #ffffff;
   letter-spacing: 0.15em;
   line-height: 1.8vw;
+  font-size: 0.85vw;
   z-index: 10;
   margin-top: 2vw;
   text-align: center;
@@ -1158,6 +1183,7 @@ body {
   color: #ffffff;
   letter-spacing: 0.15em;
   line-height: 1.8vw;
+  font-size: 0.85vw;
   display: flex;
   text-shadow: initial;
   justify-content: center;
@@ -1243,6 +1269,7 @@ body {
   color: #ffffff;
   letter-spacing: 0.15em;
   line-height: 1.8vw;
+  font-size: 0.85vw;
   display: flex;
   text-shadow: initial;
 }
@@ -1293,6 +1320,7 @@ body {
   color: #ffffff;
   letter-spacing: 0.15em;
   line-height: 1.8vw;
+  font-size: 0.85vw;
   text-shadow: initial;
 }
 @media all and (max-width: 1024px) {
@@ -1411,6 +1439,7 @@ body {
   color: #ffffff;
   letter-spacing: 0.15em;
   line-height: 1.8vw;
+  font-size: 0.85vw;
   text-shadow: initial;
 }
 @media all and (max-width: 1024px) {
