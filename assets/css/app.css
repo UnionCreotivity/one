@@ -10,7 +10,7 @@
 
 body {
   background-size: cover;
-  background-image: url(../images/all_bg.png);
+  background-image: url(../images/all_bg.jpg);
 }
 
 .card1-card2 {
@@ -21,6 +21,30 @@ body {
   width: 100%;
   overflow: hidden;
   position: relative;
+}
+.card1-card2 .card1 .item1 {
+  width: 160px;
+  position: absolute;
+  top: 4vw;
+  left: 15.5vw;
+}
+.card1-card2 .card1 .item2 {
+  width: 12px;
+  position: absolute;
+  top: 7vw;
+  left: 20vw;
+}
+.card1-card2 .card1 .item3 {
+  width: 140px;
+  position: absolute;
+  top: 3.5vw;
+  left: 19vw;
+}
+.card1-card2 .card1 .item4 {
+  width: 100px;
+  position: absolute;
+  top: 6.5vw;
+  left: 17vw;
 }
 .card1-card2 .card1 .line-one-box {
   width: 100%;
@@ -74,7 +98,7 @@ body {
   position: absolute;
   bottom: 17vw;
   left: 10vw;
-  width: 7%;
+  width: 9%;
   z-index: 15;
 }
 .card1-card2 .card1 .line-one-box .c1-logo-box {
@@ -1514,7 +1538,7 @@ body {
 }
 .card14 .content-box2 .left-box .swiper .swiper-controller .slider-controller .prev {
   position: absolute;
-  top: 10vw;
+  top: 12.5vw;
   left: 2vw;
   z-index: 999;
   cursor: pointer;
@@ -1524,7 +1548,7 @@ body {
 }
 .card14 .content-box2 .left-box .swiper .swiper-controller .slider-controller .next {
   position: absolute;
-  top: 10vw;
+  top: 12.5vw;
   right: 2vw;
   z-index: 999;
   cursor: pointer;

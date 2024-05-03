@@ -123,6 +123,8 @@ window.onload = function () {
     c1TextAni();
 
     function c1ScrollAni() {
+
+        const item = document.querySelectorAll('.light-item');
         let lineTl = gsap.timeline({
             repeat: -1,
             scrollTrigger: {
@@ -138,20 +140,19 @@ window.onload = function () {
                 opacity: 1,
             })
             .from('.c1-circle', {
-                duration: 0.6,
+                duration: 0.4,
                 scale: 0,
-                ease: "power2.inOut",
+                ease: "power3.inOut",
             }, '<')
-
-            .to(".js-line_mask_2_1", { strokeDashoffset: 0, duration: 0.7, }, '<0.3')
-            .to(".js-line_mask_2_2", { strokeDashoffset: 0, duration: 0.7, }, '<0.4')
-            .to(".js-line_mask_2_1", { strokeDashoffset: -1920, duration: 0.7, delay: 2 })
-            .to(".js-line_mask_2_2", { strokeDashoffset: -1920, duration: 0.7, }, '<0.4')
+            .to(".js-line_mask_2_1", { strokeDashoffset: 0, duration: 0.6, })
+            .to(".js-line_mask_2_2", { strokeDashoffset: 0, duration: 0.4 }, '<0.3')
+            .to(".js-line_mask_2_1", { strokeDashoffset: -1920, duration: 0.6, delay: 2 })
+            .to(".js-line_mask_2_2", { strokeDashoffset: -1920, duration: 0.6, }, '<0.3')
             .to('.c1-circle', {
                 opacity: 0,
                 scale: 0,
-                ease: "power2.inOut",
-                duration: 0.6,
+                ease: "power3.inOut",
+                duration: 0.4,
             }, '<-0.3')
 
     }

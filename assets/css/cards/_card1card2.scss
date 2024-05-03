@@ -8,6 +8,30 @@
     width: 100%;
     overflow: hidden;
     position: relative;
+    .item1 {
+      width: 160px;
+      position: absolute;
+      top: 4vw;
+      left: 15.5vw;
+    }
+    .item2 {
+      width: 12px;
+      position: absolute;
+      top: 7vw;
+      left: 20vw;
+    }
+    .item3 {
+      width: 140px;
+      position: absolute;
+      top: 3.5vw;
+      left: 19vw;
+    }
+    .item4 {
+      width: 100px;
+      position: absolute;
+      top: 6.5vw;
+      left: 17vw;
+    }
     .line-one-box {
       width: 100%;
       position: relative;
@@ -64,7 +88,7 @@
         position: absolute;
         bottom: 17vw;
         left: 10vw;
-        width: 7%;
+        width: 9%;
         z-index: 15;
       }
 
