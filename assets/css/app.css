@@ -34,6 +34,11 @@ body {
   width: 100%;
   z-index: 10;
 }
+@media all and (max-width: 1440px) {
+  .card1-card2 .card1 .line-one-box .absolute1 {
+    top: -5%;
+  }
+}
 .card1-card2 .card1 .line-one-box .absolute1 .relative {
   position: relative;
   width: 100%;
@@ -49,6 +54,11 @@ body {
   width: 100%;
   top: -14%;
   left: 0px;
+}
+@media all and (max-width: 1440px) {
+  .card1-card2 .card1 .line-one-box .absolute2 {
+    top: -5%;
+  }
 }
 .card1-card2 .card1 .line-one-box .absolute2 .relative {
   position: relative;
@@ -147,24 +157,6 @@ body {
           mask-repeat: no-repeat;
   width: 4.5vw;
   overflow: hidden;
-}
-@media all and (max-width: 1440px) {
-  .card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .add {
-    width: 6vw;
-    height: 18vw;
-  }
-}
-@media all and (max-width: 1024px) {
-  .card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .add {
-    height: 35vw;
-    width: 12vw;
-  }
-}
-@media all and (max-width: 500px) {
-  .card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .add {
-    height: 40vw;
-    width: 12vw;
-  }
 }
 .card1-card2 .card1 .line-one-box .c1-logo-box .c1-logo .add .light {
   position: relative;

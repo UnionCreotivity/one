@@ -96,7 +96,7 @@ window.onload = function () {
         });
 
         tl.from(item, {
-            duration: 1.2,
+            duration: 1,
             // opacity: 0,
             y: 900,
             scale: 3,
@@ -109,7 +109,7 @@ window.onload = function () {
             xPercent: (pos) => gsap.utils.random(-2500, 2500),
             yPercent: (pos) => gsap.utils.random(-2500, 2500),
             onStart: () => {
-                setTimeout(c1ScrollAni, 1400); // 在動畫開始後1秒調用c1ScrollAni函數
+                setTimeout(c1ScrollAni, 1250); // 在動畫開始後1秒調用c1ScrollAni函數
             }
         })
             .from('.c1-circle', {
